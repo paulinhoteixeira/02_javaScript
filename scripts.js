@@ -17,6 +17,13 @@ o código abaixo escreve alguma mensagem no devtools
 
 // console.log(`o ${name} tem ${age} anos e seu ranking é ${stars}`)
 
-let student = {}
+let student = {
+  name: "Paulo",
+  age: 30,
+  stars: 4.8,
+  isSubscribed: true,
+};
 
-console.log(typeof student)
+console.log(typeof student);
+
+console.log(`o estudante ${student.name} tem ${student.age}`);
