@@ -10,10 +10,13 @@ o código abaixo escreve alguma mensagem no devtools
 
 //console.log(typeof weight)
 
-let name = "Paulo"
-let age = 30
-let stars = 4.8
-isSubscribed = true
+// let name = "Paulo"
+// let age = 30
+// let stars = 4.8
+// isSubscribed = true
 
-console.log(`o ${name} tem ${age} anos e seu ranking é ${stars}`)
+// console.log(`o ${name} tem ${age} anos e seu ranking é ${stars}`)
 
+let student = {}
+
+console.log(typeof student)
