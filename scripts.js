@@ -29,6 +29,7 @@ console.log(typeof student);
 console.log(`o estudante ${student.name} tem ${student.age}`);
 */
 
+/*
 let student = {
     name: "Paulo",
     age: 30,
@@ -50,3 +51,4 @@ const john = {
 
 students[1] = john
 console.log(students)
+*/
