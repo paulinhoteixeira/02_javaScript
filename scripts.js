@@ -41,3 +41,12 @@ let students = [];
 students = [student]
 
 console.log(students[0])
+
+const john = {
+    name: "John",
+    age: 30,
+    isSubscribed: true
+}
+
+students[1] = john
+console.log(students)
