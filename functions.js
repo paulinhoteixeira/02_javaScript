@@ -38,7 +38,7 @@ function sayMyname(){
     console.log("Paulo")
 }
 
-*/
+
 // arrow function
 
 const sayMyname = (name) => {
@@ -46,3 +46,21 @@ const sayMyname = (name) => {
 }
 
 sayMyname("Paulo")
+
+*/
+
+// callback function
+
+function sayMyname(name) {
+    console.log("antes de executar a função callback")
+
+    name()
+
+    console.log("depois de executar a callback")
+}
+
+sayMyname(
+    () => {
+        console.log("estou em uma callback")
+    }
+)
