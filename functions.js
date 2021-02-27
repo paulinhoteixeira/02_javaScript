@@ -64,3 +64,27 @@ sayMyname(
         console.log("estou em uma callback")
     }
 )
+
+
+/*
+    Function() constructor
+
+    *exprssão new
+    *criar um novo objeto
+    *this keyword
+    *boa prática colocar o nome desta function com a primeira letra maiuscula
+
+*/
+
+function Person(name){
+    this.name = name
+    this.walk = function(){
+        return this.name + " está andando"
+    }
+}
+
+const paulo = new Person("Paulo")
+const joao = new Person("João")
+
+console.log(paulo.walk())
+console.log(joao.walk())
