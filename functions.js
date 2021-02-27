@@ -15,3 +15,16 @@ console.log(`o úmero 1 é ${number3}`)
 console.log(`o úmero 2 é ${number10}`)
 console.log(`a soma é ${sum(number3, number10)}`)
 console.log(total)
+
+//function scope
+
+let subject = "create video"
+
+function createThink(subject){
+    subject = "study"
+    return subject
+}
+
+console.log(createThink(subject))
+console.log(subject)
+
