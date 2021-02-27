@@ -1,3 +1,4 @@
+/*
 console.log("aula sobre functions")
 
 const sum = function(number1, number2) {
@@ -36,3 +37,12 @@ sayMyname()
 function sayMyname(){
     console.log("Paulo")
 }
+
+*/
+// arrow function
+
+const sayMyname = (name) => {
+    console.log(name)
+}
+
+sayMyname("Paulo")
