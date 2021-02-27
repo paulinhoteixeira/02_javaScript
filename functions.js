@@ -28,3 +28,11 @@ function createThink(subject){
 console.log(createThink(subject))
 console.log(subject)
 
+
+//function hoisting
+
+sayMyname()
+
+function sayMyname(){
+    console.log("Paulo")
+}
