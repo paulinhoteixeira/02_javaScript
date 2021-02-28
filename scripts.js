@@ -63,4 +63,13 @@ console.log(students)
 
   console.log(Number("9") + 5)
 
+
+  // manipular strings e numeros 
+
+  let string = "123"
+  console.log(Number(string))
+
+  let number = 321
+  console.log(String(number))
+
   
