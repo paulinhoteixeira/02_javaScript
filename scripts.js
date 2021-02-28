@@ -108,3 +108,14 @@ console.log(students)
 
   console.log(phrase.includes("palavra"))
 
+
+  // separe um texto que contem espaços, em um novo array, onde cada palavra é uma posição do array. Depois disso, transforme o array em um texto e substitua os espaços por _
+
+  let text = "manipular textos com JS"
+  let myArray = text.split(" ")
+
+  console.log(myArray)
+
+  let textWithUnderscore = myArray.join("_")
+
+  console.log(textWithUnderscore)
