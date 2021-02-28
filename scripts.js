@@ -91,4 +91,15 @@ console.log(students)
   let number = 5465697.548798
   console.log(number.toFixed(2).replace(".",","))
 
+
+  //transformar letras minusculas em maiusculas
+
+  let word = "programar é muito bacana!"
+
+  console.log(word.toLocaleUpperCase())
+
+  let wordMaiusculas = "PROGRAMAR É MUITO BACANA!"
+
+  console.log(word.toLocaleLowerCase())
+
   
