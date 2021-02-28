@@ -66,10 +66,19 @@ console.log(students)
 
   // manipular strings e numeros 
 
+  /*
   let string = "123"
   console.log(Number(string))
 
   let number = 321
   console.log(String(number))
 
+  */
   
+  //contar quantos caracteres tem uma plavra e quantos digitos tem um numero
+
+  let word = "paralelepipedo"
+  console.log(word.length)
+
+  let number = 1234
+  console.log(String(number).length)
