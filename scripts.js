@@ -77,8 +77,18 @@ console.log(students)
   
   //contar quantos caracteres tem uma plavra e quantos digitos tem um numero
 
+  /*
   let word = "paralelepipedo"
   console.log(word.length)
 
   let number = 1234
   console.log(String(number).length)
+
+  */
+
+  //transformar um numero quebrado com 2 casas decimais e trocar ponto por virgula
+
+  let number = 5465697.548798
+  console.log(number.toFixed(2).replace(".",","))
+
+  
