@@ -102,4 +102,9 @@ console.log(students)
 
   console.log(word.toLocaleLowerCase())
 
-  
+  //verificar se o texto contem a palavra "palavra"
+
+  let phrase = "como verificar se uma palavra está no texto"
+
+  console.log(phrase.includes("palavra"))
+
