@@ -88,6 +88,7 @@ console.log(students)
 
   //transformar um numero quebrado com 2 casas decimais e trocar ponto por virgula
 
+  /*
   let number = 5465697.548798
   console.log(number.toFixed(2).replace(".",","))
 
@@ -129,4 +130,9 @@ console.log(students)
 
   console.log(["a", "b", "c", "d"].length)
 
-  
+  */
+  // transformar uma cadeia de caracteres em elementos de um Array
+
+  let word = "manipulação"
+  console.log(Array.from(word))
+
