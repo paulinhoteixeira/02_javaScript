@@ -119,3 +119,8 @@ console.log(students)
   let textWithUnderscore = myArray.join("_")
 
   console.log(textWithUnderscore)
+
+  //criar array com constructor
+
+  let array = new Array("a", "b", "c")
+  console.log(array)
