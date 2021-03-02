@@ -124,3 +124,9 @@ console.log(students)
 
   let array = new Array("a", "b", "c")
   console.log(array)
+
+  //contar elementos de um array
+
+  console.log(["a", "b", "c", "d"].length)
+
+  
