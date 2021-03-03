@@ -136,3 +136,39 @@ console.log(students)
   let word = "manipulação"
   console.log(Array.from(word))
 
+
+  // manipulando arrays
+
+  let techs = ["html", "css", "js"]
+
+  //adicionar um item no fim do array
+
+  techs.push("nodejs")
+
+  //adicionar no começo
+
+  techs.unshift("sql")
+
+  //remover do fim do
+  techs.pop()
+
+  //remover do começo
+  techs.shift()
+
+  //pegar somente alguns elementos do array
+
+  console.log(techs.slice(1,3))
+
+  //remover um ou mais itns em qualquer posição
+
+  //techs.splice(1,1)
+
+  //encontrar a posição de um elemento no array
+
+  let index = techs.indexOf("html")
+  techs.splice(index,1)
+
+
+
+
+  console.log(techs)
