@@ -165,6 +165,7 @@ console.log(students)
 
   //encontrar a posição de um elemento no array
 
+  /*
   let index = techs.indexOf("html")
   techs.splice(index,1)
 
@@ -172,3 +173,22 @@ console.log(students)
 
 
   console.log(techs)
+
+  */
+
+  //Operador Condicional ternario
+  //exemplos
+
+  let pao = false
+  let queijo = true
+
+  const niceBreakfast = pao || queijo ? "Café top!" : "café ruim!"
+
+  console.log(niceBreakfast)
+
+
+  let age = 17
+
+  const canDrive = age >= 18 ? "can drive" : "can't drive"
+
+  console.log(canDrive)
