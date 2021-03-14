@@ -174,7 +174,7 @@ console.log(students)
 
   console.log(techs)
 
-  */
+  
 
   //Operador Condicional ternario
   //exemplos
@@ -192,3 +192,55 @@ console.log(students)
   const canDrive = age >= 18 ? "can drive" : "can't drive"
 
   console.log(canDrive)
+
+  
+
+  //Condicionais
+
+  //if..else 
+
+  let temperature = 38
+  let highTemperature = temperature >= 37.5
+  let mediumTemperature = temperature <37.5 && temperature >= 37
+
+  if(highTemperature) {
+    console.log("Febre alta")
+  }else if(mediumTemperature) {
+    console.log("Febre moderada")
+  }else {
+    console.log("saudável")
+  }
+
+ 
+
+  //switch
+
+  
+  function calculate(number1, operator, number2) {
+    let result
+
+    switch(operator) {
+      case "+":
+        result = number1 + number2
+        break
+      case "-":
+        result = number1 - number2
+        break
+      case "*":
+        result = number1 * number2
+        break
+      case "/":
+        result = number1 / number2
+        break
+      default:
+        console.log("não implementado!")
+    }
+
+    return result
+  }
+
+
+  console.log(calculate(4, "+", 46))
+
+*/
+
