@@ -242,5 +242,53 @@ console.log(students)
 
   console.log(calculate(4, "+", 46))
 
-*/
 
+
+//Estruturas de repetição
+
+//For
+//break - para a execução do loop
+//continue - pula a execução do momento
+
+for(let i = 0; i < 10; i++) {
+  console.log(i)
+}
+
+//while
+//utilizado quando nao sabemos o momento da parada
+let i = 1655434
+while(i < 10) {
+  console.log(i)
+
+  i /= 35
+}
+
+
+//for ..of
+
+let name = "Paulo"
+let names = ["João", "Mayk", "Pedro"]
+
+for(let char of name){
+  console.log(char)
+}
+
+for(let name of names){
+  console.log(name)
+}
+
+
+*/
+//for..in
+
+let person = {
+  name: "Paulo",
+  age: 31,
+  weight: 70
+}
+
+for(let property in person){
+  console.log(property)
+  console.log(person[property])
+
+}
